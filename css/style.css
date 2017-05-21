@@ -1,0 +1,28 @@
+*, p{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.col,[class*="col-"] {
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	margin-left: 30px;
+}
+
+.col:nth-lastchild{
+	margin-right: 30px;
+}
+
+.row{
+	margin-bottom: 30px;
+}
+
+.secoes{
+	min-height: 300px;
+}
+
+.secoes h2{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
